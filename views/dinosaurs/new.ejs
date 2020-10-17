@@ -1,0 +1,15 @@
+<h1>Add a New Dino</h1>
+
+<!-- action = WHERE to place the info when the form is submitted -->
+<!-- method = WHAT to do when the form is submitted (either GET OR POST) -->
+<form action='/dinosaurs' method='POST'>
+    <!-- FOR has to match the ID of the input -->
+    <label for='dinosaurType'>Type:</label>
+    <input type='text' name='type' id='dinosaurType'>
+
+    <label for='dinosaurName'>Name:</label>
+    <input type='text' name='name' id='dinosaurName'>
+
+    <!-- allows you to submit without needing to create click functionality for a button -->
+    <input type='submit'>
+</form>
